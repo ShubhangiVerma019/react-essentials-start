@@ -70,7 +70,7 @@ function App() {
           <ul>
             {CORE_CONCEPTS.map((conceptItem) => (
               <CoreConcept key={conceptItem.title} {...conceptItem} />
-            ))}{" "}
+            ))}
           </ul>
         </section>
         <section id="examples">
@@ -101,7 +101,7 @@ function App() {
               State
             </TabButton>
           </menu>
-          {tabContent};
+          {tabContent}
         </section>
         <h2>Time to get started!</h2>
       </main>
